@@ -1,18 +1,18 @@
 models/animatediff_models:
   mm_sd_v14.ckpt:
-    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sd_v14.ckpt
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt
     note: 原始模型
   mm_sd_v15.ckpt:
-    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sd_v15.ckpt
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt
     note: 原始模型
   mm_sd_v15_v2.ckpt:
-    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sd_v15_v2.ckpt
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt
     note: 原始模型
   mm_sd15_v3.ckpt:
-    url: https://huggingface.co/guoyww/animatediff/tree/main/v3_sd15_mm.ckpt
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt
     note: 原始模型，重命名为 mm_sd15_v3
   mm_sdxl_v10_beta.ckpt:
-    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sdxl_v10_beta.ckpt
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/mm_sdxl_v10_beta.ckpt
     note: 原始模型
   mm_sd_v14_ft_Stabilized_high.pth:
     url: https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth
