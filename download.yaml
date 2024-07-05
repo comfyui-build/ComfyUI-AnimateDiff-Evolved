@@ -1,0 +1,75 @@
+models/animatediff_models:
+  mm_sd_v14.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sd_v14.ckpt
+    note: 原始模型
+  mm_sd_v15.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sd_v15.ckpt
+    note: 原始模型
+  mm_sd_v15_v2.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sd_v15_v2.ckpt
+    note: 原始模型
+  mm_sd15_v3.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/tree/main/v3_sd15_mm.ckpt
+    note: 原始模型，重命名为 mm_sd15_v3
+  mm_sdxl_v10_beta.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/tree/main/mm_sdxl_v10_beta.ckpt
+    note: 原始模型
+  mm_sd_v14_ft_Stabilized_high.pth:
+    url: https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth
+    note: mm_sd_v14 的稳定微调版本，高稳定性
+  mm_sd_v14_ft_Stabilized_mid.pth:
+    url: https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_mid.pth
+    note: mm_sd_v14 的稳定微调版本，中等稳定性
+  mm_sd_v15_v2_ft_p_0.5.pth:
+    url: https://huggingface.co/manshoety/beta_testing_models/resolve/main/mm-p_0.5.pth
+    note: mm_sd_v15_v2 的微调版本，p=0.5
+  mm_sd_v15_v2_ft_p_0.75.pth:
+    url: https://huggingface.co/manshoety/beta_testing_models/resolve/main/mm-p_0.75.pth
+    note: mm_sd_v15_v2 的微调版本，p=0.75
+  mm_ds_v15_ft_TemporalDiff_v1.safetensors:
+    url: https://huggingface.co/CiaraRowles/TemporalDiff/resolve/main/temporaldiff-v1-animatediff.safetensors
+    note: 更高分辨率的微调版本
+  mm_sd14_v1_fp16.safetensors:
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sd14_v1.safetensors
+    note: 原始运动模型的 FP16 版本
+  mm_sd15_v1_fp16.safetensors:
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sd15_v1.safetensors
+    note: 原始运动模型的 FP16 版本
+  mm_sd15_v2_fp16.safetensors:
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sd15_v2.safetensors
+    note: 原始运动模型的 FP16 版本
+  mm_sd15_v3_fp16.safetensors:
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sd15_v3.safetensors
+    note: 原始运动模型的 FP16 版本
+  mm_sdxl_hs_fp16.safetensors:
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sdxl_hs.safetensors
+    note: 原始运动模型的 FP16 版本
+  mm_sdxl_v10_fp16.safetensors:
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sdxl_v10.safetensors
+    note: 原始运动模型的 FP16 版本
+
+models/animatediff_motion_lora:
+  v2_lora_PanLeft.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanLeft.ckpt
+    note: Motion LoRA 模型
+  v2_lora_PanRight.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt
+    note: Motion LoRA 模型
+  v2_lora_RollingAnticlockwise.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_RollingAnticlockwise.ckpt
+    note: Motion LoRA 模型
+  v2_lora_RollingClockwise.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_RollingClockwise.ckpt
+    note: Motion LoRA 模型
+  v2_lora_TiltDown.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltDown.ckpt
+    note: Motion LoRA 模型
+  v2_lora_TiltUp.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltUp.ckpt
+    note: Motion LoRA 模型
+  v2_lora_ZoomIn.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt
+    note: Motion LoRA 模型
+  v2_lora_ZoomOut.ckpt:
+    url: https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomOut.ckpt
+    note: Motion LoRA 模型
