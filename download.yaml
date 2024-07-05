@@ -45,7 +45,7 @@ models/animatediff_models:
     url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sdxl_hs.safetensors
     note: 原始运动模型的 FP16 版本
   mm_sdxl_v10_fp16.safetensors:
-    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sdxl_v10.safetensors
+    url: https://huggingface.co/conrevo/AnimateDiff-A1111/resolve/main/motion_module/mm_sdxl_v10_beta.safetensors
     note: 原始运动模型的 FP16 版本
 
 models/animatediff_motion_lora:
